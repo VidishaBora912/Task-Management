@@ -40,12 +40,12 @@ This is a simple task management application built using HTML, CSS, JavaScript, 
 
 ## Steps
 1. Clone the repository:
-https://github.com/VidishaBora912/Task-Management.git
+  https://github.com/VidishaBora912/Task-Management.git
 
 2. Create a virtual environment and activate it:
-'python -m venv venv'
-source venv/bin/activate
-On Windows, use `venv\Scripts\activate`
+  'python -m venv venv'
+  source venv/bin/activate
+  On Windows, use `venv\Scripts\activate`
 
 3.Install the required packages: 
   a. pip install django 
