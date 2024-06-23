@@ -38,3 +38,31 @@ XAMPP
 
 Steps
 1. Clone the repository:
+https://github.com/VidishaBora912/Task-Management.git
+
+2. Create a virtual environment and activate it:
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+
+3.Install the required packages: pip install django pip install mysqlclient pip install django-autoslug
+
+4. Set up the MySQL database:
+  a. Start XAMPP and activate MySQL.
+  b. Create a new database (e.g., task_db).
+  c. Update the DATABASES setting in settings.py with your MySQL credentials.
+
+5. Apply migrations:
+  a. python manage.py makemigrations
+  b. python manage.py migrate
+
+6. Run the development server:
+  a. python manage.py runserver
+
+7.Open your browser and navigate to:
+  http://127.0.0.1:8000/
+  
+Usage
+1. Register a new user account.
+2. Log in with your credentials.
+3. Create, update, or delete tasks as needed.
+4. Log out when done.
