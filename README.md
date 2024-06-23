@@ -44,9 +44,13 @@ https://github.com/VidishaBora912/Task-Management.git
 
 2. Create a virtual environment and activate it:
 python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+source venv/bin/activate
+# On Windows, use `venv\Scripts\activate`
 
-3.Install the required packages: pip install django pip install mysqlclient pip install django-autoslug
+3.Install the required packages: 
+  a. pip install django 
+  b. pip install mysqlclient 
+  c. pip install django-autoslug
 
 4. Set up the MySQL database:
   a. Start XAMPP and activate MySQL.
